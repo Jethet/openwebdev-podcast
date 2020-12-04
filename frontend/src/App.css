@@ -1,32 +1,10 @@
 body {
   min-height: 100vh;
   margin: 0 auto;
+}
+
+.temporary-text {
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  align-items: center;
 }
-
-/* HOMEPAGE */
-.homepage {
-
-}
-
-.heroe-banner {
-  /* background: url("/images/hero.jpg"); */
-  background-position: center;
-  background-repeat: no-repeat;
-  width: auto;
-  /* background-size: 100% 100%; */
-  overflow: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.heroe-banner-text{
-
-}
-
-.heroe-banner-bottom {
-
-}
-
