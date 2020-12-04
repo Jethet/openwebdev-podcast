@@ -1,1 +1,13 @@
 # openwebdev-podcast
+
+## La Bocacalle: *un espacio de expresión para personas sin hogar*.
+
+[Learn by helping](https://learningbyhelping.com/en/?ignorenitro=7c106a18ca3529c8a845b5b145be2bcb), a social innovation lab, in collaboration with the UX/UI students at [Iron Hack Barcelona](https://www.ironhack.com/en/barcelona) have identified and created proposals for 5 projects.
+
+This repository contains the work-in-progress on one of these projects:  
+**Podcast developed with and for homeless people:**  
+The idea is that communication professionals and homeless people will create different content that will be transmitted in a podcast format.  
+
+
+Technologies used:  
+*Frontend*: HTML, CSS, JavaScript, React and React Bootstrap.
