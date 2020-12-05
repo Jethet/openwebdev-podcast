@@ -1,11 +1,102 @@
+@font-face {
+  font-family: "AirbnbCereal";
+  src: url("fonts/AirbnbCerealBlack.ttf") format("ttf"),
+    url("fonts/AirbnbCerealBold.ttf") format("ttf"),
+    url("fonts/AirbnbCerealExtraBold.ttf") format("ttf"),
+    url("fonts/AirbnbCerealBook.ttf") format("ttf"),
+    url("fonts/AirbnbCerealMedium.ttf") format("ttf"),
+    url("fonts/AirbnbCerealLight.ttf") format("ttf");
+}
 
 body {
   min-height: 100vh;
   margin: 0 auto;
 }
 
-.temporary-text {
+/* SECTION PRESENTAMOS (WHITE BACKGROUND) */
+.presentamos-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.presentamos-header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 55px;
+}
+
+.presentamos-header h1 {
+  font-family: 'AirbnbCerealBook';
+  font-size: 36px;
+}
+
+.presentamos-header h2 {
+  font-family: 'AirbnbCerealBook';
+  font-size: 24px;
+}
+
+.presentamos-container p {
+  font-family: 'AirbnbCerealBook';
+  font-size: 18px;
+}
+
+.presentamos-img1 {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.presentamos-img2 {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.presentamos-alfredo-header {
+  font-family: 'AirbnbCerealExtraBold';
+  font-size: 20px;
+  font-weight: 900;
+  color: #F55F28;
+}
+
+.presentamos-alfredo-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.presentamos-fran-header {
+  font-family: 'AirbnbCerealExtraBold';
+  font-size: 20px;
+  font-weight: 900;
+  color: #F55F28;
+}
+
+.presentamos-fran-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.btn-dark {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background-color: black;
+  font-family: 'AirbnbCerealExtraBold';
+  font-size: 18px;
 }
