@@ -35,7 +35,7 @@ body {
 }
 
 .presentamos-header h2 {
-  font-family: 'AirbnbCerealBook';
+  font-family: 'AirbnbCerealMedium';
   font-size: 24px;
 }
 
@@ -65,9 +65,9 @@ body {
 
 .presentamos-alfredo-header {
   font-family: 'AirbnbCerealExtraBold';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
-  color: #F55F28;
+  color: #F55F28;;
 }
 
 .presentamos-alfredo-text {
@@ -80,7 +80,7 @@ body {
 
 .presentamos-fran-header {
   font-family: 'AirbnbCerealExtraBold';
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   color: #F55F28;
 }
