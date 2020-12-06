@@ -17,3 +17,5 @@ This repository contains the work-in-progress on one of these projects: a **podc
 * React
 * React Bootstrap
 
+
+![Example mobile version](https://github.com/Jethet/openwebdev-podcast/blob/main/frontend/public/images/mobile_part.png)
