@@ -100,3 +100,31 @@ body {
   font-family: 'AirbnbCerealExtraBold';
   font-size: 18px;
 }
+
+/* SECTION CÓMO FUNCTIONA (ORANGE BACKGROUND) */
+.comofunctiona-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F58E6B;
+}
+
+.comofunctiona-header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 55px;
+}
+
+.comofunctiona-header h2 {
+  font-family: 'AirbnbCerealBook';
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 36px;
+}
+
+.first-form-fields {
+  background: #F8DCCC;
+}
