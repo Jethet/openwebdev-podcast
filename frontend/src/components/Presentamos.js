@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
-
+import { Container, Image, Button } from "react-bootstrap";
 
 const Presentamos = () => {
   return (
