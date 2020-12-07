@@ -157,3 +157,20 @@ body {
   font-family: "AirbnbCerealMedium";
   font-size: 21px;
 }
+
+.last-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px 35px 15px 35px;
+}
+
+.black-button {
+  font-family: "AirbnbCerealBold";
+  
+}
+
+.soundbars {
+  margin-left: 10px;
+}
