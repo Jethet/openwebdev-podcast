@@ -3,7 +3,7 @@ import { Container, Image, Button } from "react-bootstrap";
 
 const Presentamos = () => {
   return (
-    <div>
+    <>
       <Container className="presentamos-container">
         <div className="presentamos-header">
           <div>
@@ -44,9 +44,9 @@ const Presentamos = () => {
             barrio.
           </p>
         </div>
-          <Button variant="dark" size="lg" className="black-button">CONOCE EL PROYECTO</Button>
+          <Button variant="dark" size="lg" className="black-button" style={{ background: "#000000", border: "#000000", fontWeight: "bold" }}>CONOCE EL PROYECTO</Button>
       </Container>
-    </div>
+    </>
   );
 };
 
