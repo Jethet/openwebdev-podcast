@@ -95,29 +95,30 @@ const ComoFunctiona = () => {
               className="third-form-fields"
               style={{ background: "#F8DCCC", height: "23px", width: "165px" }}
             ></FormControl>
-
-            <InputGroup>
+<InputGroup>
+              <InputGroup.Prepend>
                 <Image
                   src="/images/speaker.png"
                   className="soundbars"
                   style={{
                     height: "15px",
-                    marginLeft: "50px"
+                    marginLeft: "70px",
                   }}
-                />
-              <FormControl
-                size="sm"
-                type="text"
-                className="third-form-fields"
-                style={{
-                  background: "#000000",
-                  border: "#000000",
-                  height: "23px",
-                  width: "165px",
-                }}
-              >
-              </FormControl>
-              </InputGroup>
+                />{" "}
+                <FormControl
+                  size="sm"
+                  type="text"
+                  className="third-form-fields"
+                  style={{
+                    background: "#000000",
+                    border: "#000000",
+                    height: "23px",
+                    width: "165px",
+                  }}
+                ></FormControl>
+              </InputGroup.Prepend>
+            </InputGroup>
+            
 
             <FormControl
               size="sm"
@@ -125,17 +126,29 @@ const ComoFunctiona = () => {
               className="third-form-fields"
               style={{ background: "#F8DCCC", height: "23px", width: "165px" }}
             ></FormControl>
-            <FormControl
-              size="sm"
-              type="text"
-              className="third-form-fields"
-              style={{
-                background: "#000000",
-                border: "#000000",
-                height: "23px",
-                width: "165px",
-              }}
-            ></FormControl>
+            <InputGroup>
+              <InputGroup.Prepend>
+                <Image
+                  src="/images/speaker.png"
+                  className="soundbars"
+                  style={{
+                    height: "15px",
+                    marginLeft: "70px",
+                  }}
+                />{" "}
+                <FormControl
+                  size="sm"
+                  type="text"
+                  className="third-form-fields"
+                  style={{
+                    background: "#000000",
+                    border: "#000000",
+                    height: "23px",
+                    width: "165px",
+                  }}
+                ></FormControl>
+              </InputGroup.Prepend>
+            </InputGroup>
           </FormGroup>
           <div className="last-text-box">
             <p className="form-text">Escucha tu selección</p>
