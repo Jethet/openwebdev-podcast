@@ -187,7 +187,6 @@ body {
 }
 
 .speaker {
-  background-image: url("../src/speaker.png");
   position:absolute;
   height: 11px;
   margin: 8px;
