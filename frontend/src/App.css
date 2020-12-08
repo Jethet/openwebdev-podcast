@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .presentamos-header {
@@ -68,6 +69,7 @@ body {
   font-size: 24px;
   font-weight: 900;
   color: #f55f28;
+  text-align: center;
 }
 
 .presentamos-alfredo-text {
@@ -83,6 +85,7 @@ body {
   font-size: 24px;
   font-weight: 900;
   color: #f55f28;
+  text-align: center;
 }
 
 .presentamos-fran-text {
