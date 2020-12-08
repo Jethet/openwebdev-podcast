@@ -154,14 +154,15 @@ top: 0px;
 width: 352px;
 height: 48px;
 left: 23px;
-top: 185px; 
+top: 185px;
+ 
 }
 
-h1{
-  margin-left:23px;
+.hero-h1 {
+  padding-left:23px;
 }
 
-h4 {
+.hero-h4 {
 display: flex;
 justify-content: flex-start;  align-content: left;
 text-align: left;
