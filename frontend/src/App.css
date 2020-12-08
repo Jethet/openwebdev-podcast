@@ -118,7 +118,6 @@ body {
   margin-bottom: 35px;
   margin-left: 20px;
   margin-right: 20px;
-
 }
 
 .comofunctiona-header h2 {
@@ -166,14 +165,30 @@ body {
 .form-button {
   font-family: "AirbnbCerealBold";
   color: white;
+  font-size: 15px;
+  font-weight: bold;
   background-color: black;
   border: black;
-  padding: 7px 10px;
+  padding: 10px 20px;
   border-radius: 5%;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .soundbars {
   margin-left: 10px;
+  margin-right: 15px;
+}
+
+.input-field-speaker {
+  padding-left: 20px;
+  width: 180px;
+  height: 30px;
+}
+
+.speaker {
+  background-image: url("../src/speaker.png");
+  position:absolute;
+  height: 11px;
+  margin: 8px;
 }
