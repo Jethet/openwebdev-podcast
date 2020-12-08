@@ -16,7 +16,9 @@ const Presentamos = () => {
         <div className="presentamos-img1">
           <Image src="/images/alfredo.jpg" fluid alt="Alfredo" />
         </div>
+        <div>
         <h1 className="presentamos-alfredo-header">ALFREDO</h1>
+        </div>
         <div className="presentamos-alfredo-text">
           <div>
             <p>
