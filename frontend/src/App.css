@@ -116,6 +116,9 @@ body {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 .comofunctiona-header h2 {
@@ -131,17 +134,11 @@ body {
   align-items: center;
 }
 
-.first-form-fields {
+.input-field {
   background-color: #f8dccc;
-  margin-bottom: 5px;
-}
-
-.second-form-fields {
-  margin-bottom: 5px;
-}
-
-.third-form-fields {
-  margin-bottom: 5px;
+  border: #f8dccc;
+  padding-left: 5px;
+  height: 30px;
 }
 
 .form-text-box {
@@ -166,8 +163,15 @@ body {
   margin: 20px 35px 15px 35px;
 }
 
-.black-button {
+.form-button {
   font-family: "AirbnbCerealBold";
+  color: white;
+  background-color: black;
+  border: black;
+  padding: 7px 10px;
+  border-radius: 5%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .soundbars {
