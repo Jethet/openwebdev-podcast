@@ -1,13 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 import Presentamos from "./components/Presentamos"
-import ComoFunctiona from "./components/ComoFunctiona";
+import ComoFunctiona2 from "./components/ComoFunctiona";
 
 function App() {
   return (
     <div>
       <Presentamos />
-      <ComoFunctiona />
+      <ComoFunctiona2 />
     </div>
   );
 }
