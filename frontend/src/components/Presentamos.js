@@ -41,24 +41,31 @@ const Presentamos = () => {
         </div>
         <h1 className="presentamos-fran-header">FRAN</h1>
         <div className="presentamos-fran-text">
-        <div>
-          <p>
-            Soy nativo de Sevilla. Me considero una persona divertida y puedo decir que
-            soy el relaciones públicas del Raval en Barcelona.
-          </p>
+          <div>
+            <p>
+              Soy nativo de Sevilla. Me considero una persona divertida y puedo decir que
+              soy el relaciones públicas del Raval en Barcelona.
+            </p>
           </div>
           <div>
-          <p>
-            Me gusta pasar el tiempo leyendo poesía, cantando flamenco y paseando por el
-            barrio.
-          </p>
+            <p>
+              Me gusta pasar el tiempo leyendo poesía, cantando flamenco y paseando por el
+              barrio.
+            </p>
           </div>
         </div>
         <Button
           variant="dark"
           size="lg"
           className="black-button"
-          style={{ background: "#000000", border: "#000000", fontWeight: "bold" }}
+          style={{
+            background: "#000000",
+            border: "#000000",
+            borderRadius: "10px",
+            fontSize: "20px",
+            fontWeight: "bold",
+            padding: "15px",
+          }}
         >
           CONOCE EL PROYECTO
         </Button>

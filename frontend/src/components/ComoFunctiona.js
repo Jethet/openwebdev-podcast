@@ -29,7 +29,7 @@ const ComoFunctiona = () => {
 
           <section className="form-group">
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <label>
               <input
@@ -43,7 +43,7 @@ const ComoFunctiona = () => {
               />
             </label>
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <label>
               <input
@@ -64,7 +64,7 @@ const ComoFunctiona = () => {
 
           <section className="form-group">
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <div>
               <img src="/images/speaker.png" className="speaker" />
@@ -83,7 +83,7 @@ const ComoFunctiona = () => {
             </div>
 
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <div>
               <img src="/images/speaker.png" className="speaker" />
