@@ -100,16 +100,16 @@ const ComoFunctiona = () => {
                 />
               </label>
             </div>
-          </section>
 
-          <div className="last-text-box">
-            <p className="form-text">Escucha tu selección</p>
-          </div>
+            <div className="last-text-box">
+              <p className="form-text">Escucha tu selección</p>
+            </div>
+              <button className="button-form">
+                <img src="/images/bar-chart.png" alt="" className="soundbars" />
+                IR AL PODCAST
+              </button>
+          </section>
         </form>
-        <button className="form-button">
-          <img src="/images/bar-chart.png" alt="" className="soundbars" />
-          IR AL PODCAST
-        </button>
       </div>
     </>
   );

@@ -1,9 +1,3 @@
-.example {
-  font-family: 'CarlitoRegular';
-  font-family: 'CarlitoBold';
-  font-weight: normal;
-  font-style: normal;
-} 
 
 body {
   min-height: 100vh;
@@ -28,42 +22,44 @@ body {
 }
 
 .presentamos-header h1 {
-  font-family: 'CarlitoRegular';
+  font-family: "CarlitoRegular";
   font-size: 32px;
   font-weight: 300;
 }
 
 .presentamos-header h2 {
-  font-family: 'CarlitoRegular';
+  font-family: "CarlitoRegular";
   font-size: 24px;
 }
 
 .presentamos-container p {
-  font-family: 'CarlitoRegular';
+  font-family: "CarlitoRegular";
   font-size: 20px;
 }
 
-.presentamos-img1 {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 40px;
-}
-
 .presentamos-img2 {
-  width: auto;
-  max-width: 100%;
-  height: auto;
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+.image-alfredo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.image-fran {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
 .presentamos-alfredo-header {
-  font-family: 'CarlitoBold';
+  font-family: "CarlitoBold";
   font-size: 24px;
   color: #f55f28;
   text-align: center;
@@ -78,7 +74,7 @@ body {
 }
 
 .presentamos-fran-header {
-  font-family: 'CarlitoRegular';
+  font-family: "CarlitoRegular";
   font-size: 24px;
   font-weight: bold;
   color: #f55f28;
@@ -97,10 +93,8 @@ body {
   margin-top: 20px;
   margin-bottom: 60px;
   background-color: black;
-  font-family: 'CarlitoRegular';
- 
+  font-family: "CarlitoRegular";
 }
-
 
 /* SECTION CÓMO FUNCTIONA (ORANGE BACKGROUND) */
 .comofunctiona-container {
@@ -122,7 +116,7 @@ body {
 }
 
 .comofunctiona-header h2 {
-  font-family: 'CarlitoRegular';
+  font-family: "CarlitoRegular";
   font-size: 22px;
   font-weight: bolder;
   color: #ffffff;
@@ -152,7 +146,7 @@ body {
 
 .form-text {
   color: #ffffff;
-  font-family: 'CarlitoRegular';
+  font-family: "CarlitoRegular";
   font-size: 24px;
 }
 
@@ -164,8 +158,8 @@ body {
   margin: 20px 35px 15px 35px;
 }
 
-.form-button {
-  font-family: 'CarlitoBold';
+.button-form {
+  font-family: "CarlitoBold";
   color: white;
   font-size: 22px;
   background-color: black;
@@ -173,7 +167,7 @@ body {
   padding: 10px 20px;
   border-radius: 5%;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .soundbars {
@@ -188,131 +182,136 @@ body {
 }
 
 .speaker {
-  position:absolute;
+  position: absolute;
   height: 11px;
   margin: 8px;
 }
 
-.header-navbar{
-display: flex;
-flex-direction: column;
-align-content: center;
-text-align: center;
+.header-navbar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
 }
 
-mr-auto{
-display: flex;
-position: absolute;
-width: 414px;
-height: 746px;
-left: 1px;
-top: -31px;
-font-family: 'CarlitoRegular';
-font-weight: 800;
-font-size: 36px;
-line-height: 80px;
+mr-auto {
+  display: flex;
+  position: absolute;
+  width: 414px;
+  height: 746px;
+  left: 1px;
+  top: -31px;
+  font-family: "CarlitoRegular";
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 80px;
 }
 
-.container-header{
-width: 414px;
-height: 709px;
-left: 0px;
-top: 0px;
-background-color: #F8DCCC;
+.container-header {
+  width: 414px;
+  height: 709px;
+  left: 0px;
+  top: 0px;
+  background-color: #f8dccc;
 }
 
 .header-iconos {
-display: center;
-padding: 50px;  
+  display: center;
+  padding: 50px;
 }
 
 .music_apps {
-display: flex;
-width: 100%;
-justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
-.heroe-banner-text{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-width: 414px;
-height: 709px;
-left: 23px;
-top: 0px;
+.heroe-banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 414px;
+  height: 709px;
+  left: 23px;
+  top: 0px;
 }
 
-.container h1{
-
-width: 352px;
-height: 48px;
-left: 23px;
-top: 185px;
- 
+.container h1 {
+  width: 352px;
+  height: 48px;
+  left: 23px;
+  top: 185px;
 }
 
 .hero-h1 {
-  padding-left:23px;
+  padding-left: 23px;
 }
 
 .hero-h4 {
-display: flex;
-justify-content: flex-start;  align-content: left;
-text-align: left;
-margin-left: 23px;  
+  display: flex;
+  justify-content: flex-start;
+  align-content: left;
+  text-align: left;
+  margin-left: 23px;
 }
 
-strong{
-font-family: 'CarlitoBold';
-color: #F55F28;
-width: 275px;
-height: 54px;
-left: 23px;
-top: 227px;
+strong {
+  font-family: "CarlitoBold";
+  color: #f55f28;
+  width: 275px;
+  height: 54px;
+  left: 23px;
+  top: 227px;
 }
 
-.heroe-banner-text{
-align-content: right;
-display: flex;
-flex-direction: column;
-text-align: center;
-margin-top: 185px;
-margin-bottom: 55px;
+.heroe-banner-text {
+  align-content: right;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 185px;
+  margin-bottom: 55px;
 }
 
 .colaboradores {
-display: flex;
-flex-direction: column;
-align-content: center;
-text-align: center;
-margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .colaboradores-texto {
-display: flex;
-flex-direction: column;
-align-content: center;
-text-align: center;
-font-family: 'CarlitoRegular';
-font-size: 26px;
-font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  font-family: "CarlitoRegular";
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .form-button {
-margin-top: 133px;
-margin-left: 100px;
-margin-bottom: 163px;;
+  font-family: "CarlitoBold";
+  color: white;
+  font-size: 22px;
+  background-color: black;
+  border: black;
+  padding: 10px 20px;
+  border-radius: 5%;
+  margin-top: 133px;
+  margin-left: 100px;
+  margin-bottom: 163px;
 }
 
-.colaboradores-cards{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-top:50px;
-margin-bottom: 50px;
-justify-content: space-between;
+.colaboradores-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
 }
-
 
 #footer {
   width: 100%;
@@ -325,7 +324,8 @@ justify-content: space-between;
   align-items: center;
 }
 
-#footer p, .email_us {
+#footer p,
+.email_us {
   width: 100%;
   height: 33px;
   margin: 0;
@@ -333,7 +333,7 @@ justify-content: space-between;
   font-weight: normal;
   font-size: 18px;
   line-height: 33px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -348,6 +348,5 @@ justify-content: space-between;
 }
 
 .music_apps a {
-  margin: 12px ;
+  margin: 12px;
 }
-

@@ -7,7 +7,6 @@ const Header = () => {
       <section className="heroe-banner">
         <div className="container-header">
           <div className="header-navbar">
-            <headerComponent>
               <Navbar bg="light" expand="lg">
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -53,7 +52,6 @@ const Header = () => {
                   </div>
                 </Navbar.Collapse>
               </Navbar>
-            </headerComponent>
           </div>
 
           <div className="heroe-banner-text">
