@@ -37,7 +37,7 @@ const Header = () => {
             </div>
 
             <div className="heroe-banner-text" >
-                <h1 className="hero-h1">Somos el Podcast <br></br>
+                <h1 className="hero-h1">Somos el PODCAST <br></br>
                 <strong> La BOCACALLE</strong></h1>
                 <h4 className="hero-h4">Un espacio de expressión para personas sin hogar</h4>
                 <div className="heroe-banner-bottom">

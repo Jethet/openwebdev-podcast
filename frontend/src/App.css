@@ -1,12 +1,9 @@
-@font-face {
-  font-family: "AirbnbCereal";
-  src: url("fonts/AirbnbCerealBlack.ttf") format("ttf"),
-    url("fonts/AirbnbCerealBold.ttf") format("ttf"),
-    url("fonts/AirbnbCerealExtraBold.ttf") format("ttf"),
-    url("fonts/AirbnbCerealBook.ttf") format("ttf"),
-    url("fonts/AirbnbCerealMedium.ttf") format("ttf"),
-    url("fonts/AirbnbCerealLight.ttf") format("ttf"),
-}
+.example {
+  font-family: 'CarlitoRegular';
+  font-family: 'CarlitoBold';
+  font-weight: normal;
+  font-style: normal;
+} 
 
 body {
   min-height: 100vh;
@@ -31,18 +28,19 @@ body {
 }
 
 .presentamos-header h1 {
-  font-family: "AirbnbCerealBook";
-  font-size: 36px;
+  font-family: 'CarlitoRegular';
+  font-size: 32px;
+  font-weight: 300;
 }
 
 .presentamos-header h2 {
-  font-family: "AirbnbCerealMedium";
+  font-family: 'CarlitoRegular';
   font-size: 24px;
 }
 
 .presentamos-container p {
-  font-family: "AirbnbCerealBook";
-  font-size: 18px;
+  font-family: 'CarlitoRegular';
+  font-size: 20px;
 }
 
 .presentamos-img1 {
@@ -65,9 +63,8 @@ body {
 }
 
 .presentamos-alfredo-header {
-  font-family: "AirbnbCerealExtraBold";
+  font-family: 'CarlitoBold';
   font-size: 24px;
-  font-weight: 900;
   color: #f55f28;
   text-align: center;
 }
@@ -81,9 +78,9 @@ body {
 }
 
 .presentamos-fran-header {
-  font-family: "AirbnbCerealExtraBold";
+  font-family: 'CarlitoRegular';
   font-size: 24px;
-  font-weight: 900;
+  font-weight: bold;
   color: #f55f28;
   text-align: center;
 }
@@ -96,12 +93,12 @@ body {
   padding: 15px;
 }
 
-.btn-dark {
+.black-button {
   margin-top: 20px;
   margin-bottom: 60px;
   background-color: black;
-  font-family: "AirbnbCerealExtraBold";
-  font-size: 18px;
+  font-family: 'CarlitoRegular';
+ 
 }
 
 
@@ -125,8 +122,9 @@ body {
 }
 
 .comofunctiona-header h2 {
-  font-family: "AirbnbCerealBook";
+  font-family: 'CarlitoRegular';
   font-size: 22px;
+  font-weight: bolder;
   color: #ffffff;
   line-height: 28px;
 }
@@ -154,8 +152,8 @@ body {
 
 .form-text {
   color: #ffffff;
-  font-family: "AirbnbCerealMedium";
-  font-size: 21px;
+  font-family: 'CarlitoRegular';
+  font-size: 24px;
 }
 
 .last-text-box {
@@ -167,10 +165,9 @@ body {
 }
 
 .form-button {
-  font-family: "AirbnbCerealBold";
+  font-family: 'CarlitoBold';
   color: white;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 22px;
   background-color: black;
   border: black;
   padding: 10px 20px;
@@ -181,7 +178,7 @@ body {
 
 .soundbars {
   margin-left: 10px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .input-field-speaker {
@@ -210,7 +207,7 @@ width: 414px;
 height: 746px;
 left: 1px;
 top: -31px;
-font-family: 'AirbnbCerealMedium';
+font-family: 'CarlitoRegular';
 font-weight: 800;
 font-size: 36px;
 line-height: 80px;
@@ -266,7 +263,7 @@ margin-left: 23px;
 }
 
 strong{
-font-family: 'AirbnbCerealExtraBold';
+font-family: 'CarlitoBold';
 color: #F55F28;
 width: 275px;
 height: 54px;
@@ -288,18 +285,17 @@ display: flex;
 flex-direction: column;
 align-content: center;
 text-align: center;
-padding:70px;
-font-family: AirbnbCerealExtraBold;
-font-weight: 800;
-font-size: 24px;
-line-height: 36px;
+margin-top: 60px;
 }
 
 .colaboradores-texto {
 display: flex;
 flex-direction: column;
 align-content: center;
-text-align: center;  
+text-align: center;
+font-family: 'CarlitoRegular';
+font-size: 26px;
+font-weight: bold;
 }
 
 .black-button-header {
@@ -313,6 +309,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top:50px;
+margin-bottom: 50px;
 justify-content: space-between;
 }
 

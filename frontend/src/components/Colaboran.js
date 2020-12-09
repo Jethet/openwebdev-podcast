@@ -4,8 +4,8 @@ import { Container, Card } from "react-bootstrap";
 const Colaboran = () => {
     return (
         <div className="colaboradores">
-            <div className="colaboradores-texto">
-                <h6>COLABORAN CON NOSOTROS:</h6>
+            <div>
+                <h6 className="colaboradores-texto">COLABORAN CON NOSOTROS:</h6>
             </div>
 
             <div className="colaboradores-cards">
