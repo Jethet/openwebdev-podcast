@@ -176,15 +176,15 @@ body {
 }
 
 .button-form {
-  font-family: "CarlitoBold";
+  font-family: "Carlito";
   color: white;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: bolder;
   background-color: black;
   border: black;
   padding: 10px 20px;
   border-radius: 5%;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .soundbars {
@@ -291,6 +291,8 @@ strong {
   margin-bottom: 55px;
 }
 
+/* COLABORAN section */
+
 .colaboradores {
   display: flex;
   flex-direction: column;
@@ -305,8 +307,8 @@ strong {
   align-content: center;
   text-align: center;
   font-family: "CarlitoRegular";
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .form-button {
@@ -326,11 +328,16 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px;
   justify-content: space-between;
 }
 
+.card {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
 #footer {
   width: 100%;
   height: 180px;
@@ -367,6 +374,12 @@ strong {
 
 .music_apps a {
   margin: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .insta-youtube {
+    display: none !important;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -478,25 +491,88 @@ strong {
   }
 
   .form-group {
-    display: flex;
-    flex-direction: column;
     width: 33%;
   }
 
+  .input-field {
+    width: 100%;
+  }
+
   .form-text-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     width: 90%;
     margin: 0px;
+    margin-top: 15px;
   }
 
   .form-text {
+    font-size: 20px;
     font-weight: bold;
   }
 
   .button-form {
-    position: relative;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  /* COLABORAN section */
+  .colaboradores-texto {
+    font-size: 34px;
+    margin-top: 40px;
+  }
+
+  .colaboradores-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+  }
+
+  /* FOOTER */
+  #footer {
+    width: 100%;
+    height: 130px;
+    padding: 12px 0;
+    background: #1a1717;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+
+  .first-two-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .first-two-items li {
+    margin: 3px;
+  }
+
+  .insta-youtube {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .insta-youtube a {
+    margin: 12px;
+  }
+
+  .last-two-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }

@@ -22,7 +22,9 @@ const ComoFunctiona = () => {
             <label>
               <input type="text" placeholder="Type here" className="input-field" />
             </label>
+            <label>
             <input type="text" placeholder="Type here" className="input-field" />
+            </label>
             <div className="form-text-box">
               <p className="form-text">Hablamos de muchos temas en cada episodio</p>
             </div>
