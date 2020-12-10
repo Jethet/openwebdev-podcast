@@ -11,27 +11,26 @@ const Presentamos = () => {
         </div>
         <section className="section-alfredo">
           <img src="/images/alfredo.jpg" alt="Alfredo" className="image-alfredo" />
-          <h1 className="presentamos-alfredo-header">ALFREDO</h1>
-          <div className="presentamos-alfredo-text">
-            <div>
-              <p>
-                Vengo del seno de una familia que emigró de Andalucía a Cataluña, en busca
-                de una vida digna y huyendo del hambre de la posguerra. Tuve una infancia
-                envidiable en todos los sentidos, me dieron la mejor educación escolar qué
-                creían, en colegios de pago.
-              </p>
-            </div>
-            <div>
-              <p>
-                He vivido en la calle un par de veces por culpa de mis adicciones y por
-                eso me gusta compartir mi vida turbulenta para sensibilizar el impacto de
-                last drogas.
-              </p>
+          <div>
+            <h1 className="presentamos-alfredo-header">ALFREDO</h1>
+            <div className="presentamos-alfredo-text">
+            <p>
+              Vengo del seno de una familia que emigró de Andalucía a Cataluña, en busca
+              de una vida digna y huyendo del hambre de la posguerra. Tuve una infancia
+              envidiable en todos los sentidos, me dieron la mejor educación escolar qué
+              creían, en colegios de pago.
+            </p>
+            <p>
+              He vivido en la calle un par de veces por culpa de mis adicciones y por eso
+              me gusta compartir mi vida turbulenta para sensibilizar el impacto de las
+              drogas.
+            </p>
             </div>
           </div>
         </section>
         <section className="section-fran">
           <img src="/images/fran.jpg" alt="Fran" className="image-fran" />
+          <div>
           <h1 className="presentamos-fran-header">FRAN</h1>
           <div className="presentamos-fran-text">
             <div>
@@ -45,6 +44,7 @@ const Presentamos = () => {
                 Me gusta pasar el tiempo leyendo poesía, cantando flamenco y paseando por
                 el barrio.
               </p>
+            </div>
             </div>
           </div>
         </section>
