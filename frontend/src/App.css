@@ -421,9 +421,6 @@ strong {
     display: none !important;
   }
 
-  /* .new-navbar {
-  } */
-
   .web-navbar {
     display: flex;
     justify-content: space-between;
@@ -464,13 +461,13 @@ strong {
   }
 
   .first-header {
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 700;
     color: black;
   }
 
   .second-header {
-    font-size: 40px;
+    font-size: 46px;
     color: #f55f28;
     font-weight: 900;
   }
