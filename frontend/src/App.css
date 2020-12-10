@@ -220,10 +220,17 @@ mr-auto {
   /* height: 746px; */
   left: 1px;
   top: -31px;
-  font-family: "CarlitoRegular";
+  /* font-family: "Carlito";
   font-weight: 800;
   font-size: 36px;
-  line-height: 80px;
+  line-height: 80px; */
+}
+
+.link {
+  font-family: "Carlito";
+  font-size: 34px;
+  line-height: 50px;
+  color: black;
 }
 
 .container-header {
@@ -237,6 +244,11 @@ mr-auto {
 .header-iconos {
   display: center;
   padding: 50px;
+}
+
+.header-iconos a {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .music_apps {
@@ -383,6 +395,77 @@ strong {
 }
 
 @media screen and (min-width: 769px) {
+  /* HEADER */
+  .header-navbar {
+    display: none !important;
+  }
+
+  .heroe-banner-text {
+    display: none !important;
+  }
+
+  /* .new-navbar {
+  } */
+
+  .web-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 60px;
+  }
+
+  .first-link a {
+    font-size: 34px;
+    color: #f55f28;
+    font-weight: 500;
+  }
+
+  .rest-links a {
+    font-size: 20px;
+    color: black;
+    margin-right: 25px;
+  }
+
+  .rest-links button {
+    font-family: "Carlito";
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f8dccc;
+  }
+
+  .new-hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 90px;
+
+  }
+
+  .first-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .second-header {
+    font-size: 40px;
+    color: #f55f28;
+    font-weight: 900;
+  }
+
+  .new-hero h4 {
+    margin-top: 80px;
+  }
+
+  .button-form {
+    margin-left: 90px;
+  }
+
   /* NOS PRESENTAMOS section */
   .presentamos-header {
     display: flex;
@@ -568,6 +651,12 @@ strong {
 
   .insta-youtube a {
     margin: 12px;
+  }
+
+  .youtube-icon {
+    object-fit: contain;
+    width: 32px;
+    height: auto;
   }
 
   .last-two-items {
