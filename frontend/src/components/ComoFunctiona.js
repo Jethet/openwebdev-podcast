@@ -5,8 +5,10 @@ const ComoFunctiona = () => {
     <>
       <div className="comofunctiona-container">
         <div className="comofunctiona-header">
-          <h2>¿CÓMO FUNCTIONA?</h2>
-          <h2>CONSTRUYE LOS EPISODIOS A TU GUSTO</h2>
+          <p className="comofunctiona-header-first">¿CÓMO FUNCTIONA?</p>
+          <p className="comofunctiona-header-second">
+            CONSTRUYE LOS EPISODIOS A TU GUSTO
+          </p>
         </div>
 
         <form className="total-form">
@@ -20,12 +22,13 @@ const ComoFunctiona = () => {
             <label>
               <input type="text" placeholder="Type here" className="input-field" />
             </label>
+            <label>
             <input type="text" placeholder="Type here" className="input-field" />
+            </label>
+            <div className="form-text-box">
+              <p className="form-text">Hablamos de muchos temas en cada episodio</p>
+            </div>
           </section>
-
-          <div className="form-text-box">
-            <p className="form-text">Hablamos de muchos temas en cada episodio</p>
-          </div>
 
           <section className="form-group">
             <label>
@@ -37,7 +40,7 @@ const ComoFunctiona = () => {
                 style={{
                   color: "white",
                   backgroundColor: "black",
-                  border: "2px solid black",
+                  border: "1px solid black",
                   height: "30px",
                 }}
               />
@@ -51,16 +54,15 @@ const ComoFunctiona = () => {
                 style={{
                   color: "white",
                   backgroundColor: "black",
-                  border: "2px solid black",
+                  border: "1px solid black",
                   height: "30px",
                 }}
               />
             </label>
+            <div className="form-text-box">
+              <p className="form-text">Puedes eligir la/s sección/es que te interesan</p>
+            </div>
           </section>
-
-          <div className="form-text-box">
-            <p className="form-text">Puedes eligir la/s sección/es que te interesan</p>
-          </div>
 
           <section className="form-group">
             <label>
@@ -75,7 +77,7 @@ const ComoFunctiona = () => {
                   style={{
                     color: "white",
                     backgroundColor: "black",
-                    border: "2px solid black",
+                    border: "1px solid black",
                     height: "30px",
                   }}
                 />
@@ -94,22 +96,22 @@ const ComoFunctiona = () => {
                   style={{
                     color: "white",
                     backgroundColor: "black",
-                    border: "2px solid black",
+                    border: "1px solid black",
                     height: "30px",
                   }}
                 />
               </label>
             </div>
 
-            <div className="last-text-box">
+            <div className="form-text-box">
               <p className="form-text">Escucha tu selección</p>
             </div>
-              <button className="button-form">
-                <img src="/images/bar-chart.png" alt="" className="soundbars" />
-                IR AL PODCAST
-              </button>
           </section>
         </form>
+        <button className="button-form">
+          <img src="/images/bar-chart.png" alt="" className="soundbars" />
+          IR AL PODCAST
+        </button>
       </div>
     </>
   );
