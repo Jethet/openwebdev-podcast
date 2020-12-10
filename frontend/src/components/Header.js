@@ -100,7 +100,7 @@ const Header = () => {
             <h3>Un espacio de expresión para personas sin hogar</h3>
             <h4>Escucha los episodios a tu medida</h4>
           </div>
-          <button className="button-form">
+          <button className="button-form-header">
             <img src="/images/bar-chart.png" alt="" className="soundbars" />
             IR AL PODCAST
           </button>

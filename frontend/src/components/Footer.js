@@ -14,7 +14,7 @@ const Footer = () => {
             </a>
           </li>
         </div>
-        <li>
+        <li id="extra_icons" >
           <div className="insta-youtube">
             <a href="#">
               <svg

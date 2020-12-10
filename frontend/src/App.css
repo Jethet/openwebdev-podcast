@@ -175,7 +175,7 @@ body {
   margin: 20px 35px 15px 35px;
 }
 
-.button-form {
+.button-form, .button-form-header {
   font-family: "Carlito";
   color: white;
   font-size: 18px;
@@ -308,6 +308,12 @@ strong {
   justify-content: center;
 }
 
+.button-form-header {
+  position: relative;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* COLABORAN section */
 
 .colaboradores {
@@ -393,23 +399,15 @@ strong {
   margin: 12px;
 }
 
-@media screen and (max-width: 768px) {
-  .insta-youtube {
-    display: none !important;
-  }
 
-  .new-hero {
-    display: none !important;
-  }
-
-  .new-navbar {
-    display: none !important;
-  }
-
-  .form-button {
-    display: none !important;
-  }
+/* footer extra icons */
+#extra_icons {
+  display: none;
 }
+
+
+
+
 
 @media screen and (min-width: 769px) {
   /* HEADER */
@@ -476,9 +474,13 @@ strong {
     margin-top: 80px;
   }
 
-  .button-form {
+  .button-form-header {
+    position: inherit;
+    top: 0; left: 0;
+    transform: translate(0, 0);
     margin-left: 90px;
   }
+
 
   /* NOS PRESENTAMOS section */
   .presentamos-header {
@@ -657,6 +659,10 @@ strong {
     margin: 3px;
   }
 
+  #extra_icons {
+    display: inline-block;
+  }
+
   .insta-youtube {
     display: flex;
     width: 100%;
@@ -677,5 +683,19 @@ strong {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .new-hero {
+    display: none !important;
+  }
+
+  .new-navbar {
+    display: none !important;
+  }
+
+  .form-button {
+    display: none !important;
   }
 }
