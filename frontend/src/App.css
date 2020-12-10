@@ -295,12 +295,17 @@ strong {
 }
 
 .heroe-banner-text {
-  align-content: right;
   display: flex;
+  align-content: right;
   flex-direction: column;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 185px;
-  margin-bottom: 55px;
+  margin-bottom: 150px;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
 }
 
 /* COLABORAN section */
@@ -390,6 +395,18 @@ strong {
 
 @media screen and (max-width: 768px) {
   .insta-youtube {
+    display: none !important;
+  }
+
+  .new-hero {
+    display: none !important;
+  }
+
+  .new-navbar {
+    display: none !important;
+  }
+
+  .form-button {
     display: none !important;
   }
 }

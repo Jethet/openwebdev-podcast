@@ -69,12 +69,12 @@ const Header = () => {
               <strong> La BOCACALLE</strong>
             </h1>
             <h4 className="hero-h4">Un espacio de expressión para personas sin hogar</h4>
-            <div className="heroe-banner-bottom">
-              <button className="form-button">
-                <img src="/images/bar-chart.png" alt="" className="soundbars" />
-                IR AL PODCAST
-              </button>
-            </div>
+          </div>
+          <div className="hero-button">
+            <button className="form-button">
+              <img src="/images/bar-chart.png" alt="" className="soundbars" />
+              IR AL PODCAST
+            </button>
           </div>
           <nav className="new-navbar">
             <ul className="web-navbar">
