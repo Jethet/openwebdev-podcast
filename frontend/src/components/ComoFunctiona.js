@@ -29,7 +29,7 @@ const ComoFunctiona = () => {
 
           <section className="form-group">
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <label>
               <input
@@ -43,7 +43,7 @@ const ComoFunctiona = () => {
               />
             </label>
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <label>
               <input
@@ -64,7 +64,7 @@ const ComoFunctiona = () => {
 
           <section className="form-group">
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <div>
               <img src="/images/speaker.png" className="speaker" />
@@ -83,7 +83,7 @@ const ComoFunctiona = () => {
             </div>
 
             <label>
-              <input type="text" placeholder="Type here" className="input-field" />
+              <input type="text" className="input-field" />
             </label>
             <div>
               <img src="/images/speaker.png" className="speaker" />
@@ -100,16 +100,16 @@ const ComoFunctiona = () => {
                 />
               </label>
             </div>
-          </section>
 
-          <div className="last-text-box">
-            <p className="form-text">Escucha tu selección</p>
-          </div>
+            <div className="last-text-box">
+              <p className="form-text">Escucha tu selección</p>
+            </div>
+              <button className="button-form">
+                <img src="/images/bar-chart.png" alt="" className="soundbars" />
+                IR AL PODCAST
+              </button>
+          </section>
         </form>
-        <button className="form-button">
-          <img src="/images/bar-chart.png" alt="" className="soundbars" />
-          IR AL PODCAST
-        </button>
       </div>
     </>
   );
