@@ -118,12 +118,26 @@ body {
   margin-right: 20px;
 }
 
-.comofunctiona-header h2 {
+.comofunctiona-header-first {
   font-family: "CarlitoRegular";
   font-size: 22px;
   font-weight: bolder;
   color: #ffffff;
   line-height: 28px;
+}
+
+.comofunctiona-header-second {
+  font-family: "CarlitoRegular";
+  font-size: 22px;
+  font-weight: bolder;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.total-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-group {
@@ -357,7 +371,6 @@ strong {
 
 @media screen and (min-width: 769px) {
   /* NOS PRESENTAMOS section */
-
   .presentamos-header {
     display: flex;
     flex-direction: column;
@@ -437,5 +450,53 @@ strong {
     flex-direction: column;
     text-align: left;
     padding-right: 110px;
+  }
+
+  /* COMOFUNCTIONA section */
+  .comofunctiona-header-first {
+    font-family: "Carlito";
+    font-size: 32px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 32px;
+    margin-top: 50px;
+  }
+
+  .comofunctiona-header-second {
+    font-family: "CarlitoRegular";
+    font-size: 34px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 32px;
+    margin-bottom: 40px;
+  }
+
+  .total-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+
+  .form-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0px;
+  }
+
+  .form-text {
+    font-weight: bold;
+  }
+
+  .button-form {
+    position: relative;
   }
 }
