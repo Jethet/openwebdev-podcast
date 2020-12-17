@@ -399,15 +399,12 @@ strong {
   margin: 12px;
 }
 
-
 /* footer extra icons */
 #extra_icons {
   display: none;
 }
 
-
-
-
+/* WEB VERSION */
 
 @media screen and (min-width: 769px) {
   /* HEADER */
@@ -455,7 +452,6 @@ strong {
     flex-direction: column;
     padding-top: 100px;
     padding-left: 90px;
-
   }
 
   .first-header {
