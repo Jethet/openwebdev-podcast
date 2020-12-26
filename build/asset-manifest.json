@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Jethet/openwebdev-podcast/static/css/main.d2e33178.chunk.css",
+    "main.js": "/Jethet/openwebdev-podcast/static/js/main.f385680c.chunk.js",
+    "main.js.map": "/Jethet/openwebdev-podcast/static/js/main.f385680c.chunk.js.map",
+    "runtime-main.js": "/Jethet/openwebdev-podcast/static/js/runtime-main.0d8d5d30.js",
+    "runtime-main.js.map": "/Jethet/openwebdev-podcast/static/js/runtime-main.0d8d5d30.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/Jethet/openwebdev-podcast/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.534f09f2.chunk.js": "/Jethet/openwebdev-podcast/static/js/2.534f09f2.chunk.js",
+    "static/js/2.534f09f2.chunk.js.map": "/Jethet/openwebdev-podcast/static/js/2.534f09f2.chunk.js.map",
+    "static/js/3.f93cc240.chunk.js": "/Jethet/openwebdev-podcast/static/js/3.f93cc240.chunk.js",
+    "static/js/3.f93cc240.chunk.js.map": "/Jethet/openwebdev-podcast/static/js/3.f93cc240.chunk.js.map",
+    "index.html": "/Jethet/openwebdev-podcast/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/Jethet/openwebdev-podcast/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.d2e33178.chunk.css.map": "/Jethet/openwebdev-podcast/static/css/main.d2e33178.chunk.css.map",
+    "static/js/2.534f09f2.chunk.js.LICENSE.txt": "/Jethet/openwebdev-podcast/static/js/2.534f09f2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d8d5d30.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.534f09f2.chunk.js",
+    "static/css/main.d2e33178.chunk.css",
+    "static/js/main.f385680c.chunk.js"
+  ]
+}
