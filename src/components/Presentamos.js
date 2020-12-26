@@ -10,7 +10,7 @@ const Presentamos = () => {
           <h1>SOMOS LOS ANFITRIONES</h1>
         </div>
         <section className="section-alfredo">
-          <img src="/images/alfredo.jpg" alt="Alfredo" className="image-alfredo" />
+          <img src="./images/alfredo.jpg" alt="Alfredo" className="image-alfredo" />
           <div>
             <h1 className="presentamos-alfredo-header">ALFREDO</h1>
             <div className="presentamos-alfredo-text">
@@ -29,7 +29,7 @@ const Presentamos = () => {
           </div>
         </section>
         <section className="section-fran">
-          <img src="/images/fran.jpg" alt="Fran" className="image-fran" />
+          <img src="./images/fran.jpg" alt="Fran" className="image-fran" />
           <div>
           <h1 className="presentamos-fran-header">FRAN</h1>
           <div className="presentamos-fran-text">

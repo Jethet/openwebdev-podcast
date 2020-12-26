@@ -109,7 +109,7 @@ const ComoFunctiona = () => {
           </section>
         </form>
         <button className="button-form">
-          <img src="/images/bar-chart.png" alt="" className="soundbars" />
+          <img src="./images/bar-chart.png" alt="" className="soundbars" />
           IR AL PODCAST
         </button>
       </div>

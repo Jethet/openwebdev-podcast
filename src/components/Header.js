@@ -71,7 +71,7 @@ const Header = () => {
             <h4 className="hero-h4">Un espacio de expressión para personas sin hogar</h4>
             <div className="hero-button">
             <button className="form-button">
-              <img src="/images/bar-chart.png" alt="" className="soundbars" />
+              <img src="./images/bar-chart.png" alt="" className="soundbars" />
               IR AL PODCAST
             </button>
           </div>
@@ -101,7 +101,7 @@ const Header = () => {
             <h4>Escucha los episodios a tu medida</h4>
           </div>
           <button className="button-form-header">
-            <img src="/images/bar-chart.png" alt="" className="soundbars" />
+            <img src="./images/bar-chart.png" alt="" className="soundbars" />
             IR AL PODCAST
           </button>
         </div>
